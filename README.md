@@ -12,7 +12,7 @@ This Terraform module provisions a Kubernetes SecretProviderClass to enable Azur
 To use this module, include it in your Terraform configuration with the required parameters. Here is an example:
 
 ```hcl
-module "keyvault_cart" {
+module "keyvault_provider" {
   source = "./modules/keyvault"
 
   namespace                    = "app"
@@ -50,7 +50,7 @@ module "keyvault_cart" {
 An example of using this module to create a SecretProviderClass for a set of secrets in Azure KeyVault:
 
 ```hcl
-module "keyvault_cart" {
+module "keyvault_provider" {
   source = "./modules/keyvault"
 
   namespace                    = "app"
