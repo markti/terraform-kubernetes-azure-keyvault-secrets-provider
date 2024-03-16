@@ -42,8 +42,8 @@ module "keyvault_provider" {
 
 ## Outputs
 
-- `secret_provider_class_name`: The name of the created SecretProviderClass.
-- `kubernetes_secret_name`: The name of the created Kubernetes secret.
+- `secret_provider_name`: The name of the created SecretProviderClass.
+- `secret_name`: The name of the created Kubernetes secret.
 
 ## Example
 
